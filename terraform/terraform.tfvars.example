@@ -1,0 +1,10 @@
+# Copiez ce fichier en terraform.tfvars et adaptez-le (terraform.tfvars est ignoré par Git).
+proxmox_endpoint  = "https://192.168.10.2:8006/"
+proxmox_api_token = "terraform@pve!lab=00000000-0000-0000-0000-000000000000"
+
+node_name   = "pve"
+template_id = 9000
+
+ssh_public_keys = [
+  "ssh-ed25519 AAAA... vous@poste",
+]
